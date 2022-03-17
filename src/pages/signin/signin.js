@@ -56,7 +56,7 @@ export default function Signin() {
                     console.log(res)
                 }else if(res){
                     console.log(res.data)
-                    localStorage.setItem("token",res.data.data.token)
+                    localStorage.setItem("token",res.data.data)
                     history.push("/Dashboard")
                 }
                     console.log(obj);
